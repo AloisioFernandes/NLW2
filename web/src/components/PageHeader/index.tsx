@@ -8,9 +8,10 @@ import './styles.css'
 
 interface PageHeaderProps {
   title: string
+  description?: string //propriedade opcional
 }
 
-const PageHeader: React.FC<PageHeaderProps> = ({ title, children }) => { //PageHeader componente funcional do react com as propriedades PageHeaderProps
+const PageHeader: React.FC<PageHeaderProps> = (props) => { //PageHeader componente funcional do react com as propriedades PageHeaderProps
   return (
     <header className="page-header">
       <div className="top-bar-container">
@@ -21,8 +22,10 @@ const PageHeader: React.FC<PageHeaderProps> = ({ title, children }) => { //PageH
       </div>
 
       <div className="header-content">
-        <strong>{title}</strong>
-      {children}
+        <strong>{props.title}</strong>
+        { props.description && <p>{props.description}</p> } {/* A segunda parte só é executada se a primeira foor verdadeira */}
+
+        {props.children}
       </div>
     </header>
   )
