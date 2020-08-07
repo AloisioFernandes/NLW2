@@ -1,0 +1,1 @@
+declare module '*.png' //typescript enterder que imagens .png podem ser importadas
