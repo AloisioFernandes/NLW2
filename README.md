@@ -4,7 +4,9 @@
  listar total de conexões realizadas, criar uma nova conexão
  criar, listar, filtrar aulas por matéria, dia da semana e horário
  
- frontend web feito com ReactJS, mobile-first e responsividade enviar mensagem para whatsapp
+ frontend web 
+ feito com ReactJS, mobile-first e responsividade 
+ enviar mensagem para whatsapp
  
  backend
  banco de dados sqlite
@@ -12,3 +14,6 @@
  migrations para criação de tabelas
  cors para controle de acesso
  
+ mobile
+ navegação por abas e pilha
+ asyncStorage
