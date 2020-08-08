@@ -15,5 +15,7 @@
  cors para controle de acesso
  
  mobile
- navegação por abas e pilha
- asyncStorage
+ navegação por abas e pilhas
+ filtros por matéria, dia e horário
+ whatsapp por deeplinking, sem sair do app
+ favoritos salvos no asyncStorage
