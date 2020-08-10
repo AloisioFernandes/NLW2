@@ -15,8 +15,8 @@
   <img align="center" src=".github/MobileHome.png" alt="Home Mobile" width="275" border="0">
   <img align="center" src=".github/MobileProffy.png" alt="Proffy Mobile" width="275" border="0">
   <img align="center" src=".github/MobileProffys.png" alt="Proffys Mobile" width="275" border="0">
-  <img align="center" src=".github/MobileResultados.png" alt="Resultados Mobile" width="275" border="0">
-  <img align="center" src=".github/MobileFavoritos.png" alt="Favoritos Mobile" width="275" border="0">
+  <p><img align="center" src=".github/MobileResultados.png" alt="Resultados Mobile" width="275" border="0">
+  <img align="center" src=".github/MobileFavoritos.png" alt="Favoritos Mobile" width="275" border="0"></p>
 </p>
 
 
